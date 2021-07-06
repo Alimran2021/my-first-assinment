@@ -31,10 +31,10 @@ nav#navication {
     transition: .5s;
 }
 .navMenu li a:hover {
-    background: #62bfe6;
+    background: #ffbd5b;
 }
 a.activ {
-    background: #62bfe6;
+    background: #ffbd5b;
 }
 
 .foodTitle {
@@ -43,7 +43,7 @@ a.activ {
 
 .foodTitle h1 {
     font-size: 3.5em;
-    line-height: 1.7cm;
+    line-height: 1.9cm;
     color: #515151;
 }
 
@@ -116,12 +116,13 @@ section#myDetails {
 
 .myImg img {
     width: 50%;
-   
+    height: 550px;
 }
 
 .aboutMe {
     width: 50%;
     float: left;
+    padding-top: 5em;
 }
 
 .aboutMe h1 {
@@ -155,7 +156,7 @@ span.botton {
 }
 
 .recipie p {
-    font-size: 17px;
+    font-size: 18px;
     width: 100%;
     margin:45px 0;
 }
@@ -214,11 +215,76 @@ img.round {
     font-size: 17px;
 }
 .subscriber-all {
-    padding: 31px 0px;
+    padding: 50px 0px;
     border-radius: 17px;
     box-shadow: 0px 0px 14px 0px rgb(179 179 179);
     overflow: hidden;
     margin-top: 8%;
     margin-left: 1%;
     margin-right: 1%;
+    margin-bottom: 7%;
+}
+.foodNet span {
+    color: #ffdb6b;
+}
+
+.foodNet h3 {
+    letter-spacing: 1px;
+    color: #7c7c7c;
+    padding-top: 45px;
+    font-size: 1.6em;
+}
+
+footer#network {
+    background: #131313;
+    padding-bottom: 8%;
+}
+
+.foodNet {
+    text-align: center;
+}
+
+.foodNet p {
+    color: #edeaea;
+    font-size: 15px;
+    padding-top: 40px;
+}
+section#contactMe {
+    background: #5f5f5f;
+    padding: 5% 0;
+}
+
+.contacts {
+    width: 416px;
+    float: left;
+    text-align: center;
+}
+.contact-us {
+    text-align: center;
+    font-size: 1.5em;
+    color: #e7e7e7;
+    margin-bottom: 2em;
+}
+
+
+
+.contacts h3 {
+    font-size: 24px;
+    margin-bottom: 24px;
+    color: #fff;
+}
+
+.contacts p {
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.contact-us span {
+    color: #ffdb5b;
+}
+.contacts a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
 }
